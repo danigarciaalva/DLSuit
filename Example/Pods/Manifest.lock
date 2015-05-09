@@ -1,0 +1,14 @@
+PODS:
+  - DLSuit (0.1.0)
+
+DEPENDENCIES:
+  - DLSuit (from `../`)
+
+EXTERNAL SOURCES:
+  DLSuit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DLSuit: 6cd3e78174aefa49c13d5b4f4c11424c83e8c4b0
+
+COCOAPODS: 0.37.1

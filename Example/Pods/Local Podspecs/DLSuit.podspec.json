@@ -1,0 +1,25 @@
+{
+  "name": "DLSuit",
+  "version": "0.1.0",
+  "summary": "A short description of DLSuit.",
+  "description": "                       An optional longer description of DLSuit\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DLSuit",
+  "license": "MIT",
+  "authors": {
+    "Daniel García Alvarado": "danigarciaalva@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DLSuit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DLSuit": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
