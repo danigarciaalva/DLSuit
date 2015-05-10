@@ -98,6 +98,7 @@
 		58DD1AACA90754DAB82CBA1E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				9561324E1AFDEDA800979EBA /* Classes */,
 				A0B411D301D43B562BC7654F /* Pods-DLSuit.debug.xcconfig */,
 				D95F557B13B29A0C25225235 /* Pods-DLSuit.release.xcconfig */,
 				3CA58BA35356F65A4231FD65 /* Pods-Tests.debug.xcconfig */,
@@ -110,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* DLSuit */,
+				6003F593195388D20070C39A /* DLSuitExample */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -140,7 +141,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* DLSuit */ = {
+		6003F593195388D20070C39A /* DLSuitExample */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* DLAppDelegate.h */,
@@ -152,6 +153,7 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
+			name = DLSuitExample;
 			path = DLSuit;
 			sourceTree = "<group>";
 		};
@@ -193,6 +195,13 @@
 				17092488AA607FFD98C4B486 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9561324E1AFDEDA800979EBA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

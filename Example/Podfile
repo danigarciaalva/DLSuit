@@ -1,11 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
+# Uncomment this line to define a global platform for your project
+# platform :ios, '7.0'
 
-target 'DLSuit', :exclusive => true do
-  pod "DLSuit", :path => "../"
+target 'DLSuit' do
+pod 'DLSuit', :git => 'https://github.com/danigarciaalva/DLSuit.git'
 end
 
-target 'Tests', :exclusive => true do
-  pod "DLSuit", :path => "../"
+target 'Tests' do
 
-  
 end
+
